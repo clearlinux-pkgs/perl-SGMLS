@@ -114,7 +114,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/SGMLS.pm
-/usr/lib/perl5/vendor_perl/5.32.1/SGMLS/Output.pm
-/usr/lib/perl5/vendor_perl/5.32.1/SGMLS/Refs.pm
-/usr/lib/perl5/vendor_perl/5.32.1/sgmlspl-specs/skel.pl
+/usr/lib/perl5/vendor_perl/5.34.0/SGMLS.pm
+/usr/lib/perl5/vendor_perl/5.34.0/SGMLS/Output.pm
+/usr/lib/perl5/vendor_perl/5.34.0/SGMLS/Refs.pm
+/usr/lib/perl5/vendor_perl/5.34.0/sgmlspl-specs/skel.pl
