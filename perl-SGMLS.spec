@@ -4,7 +4,7 @@
 #
 Name     : perl-SGMLS
 Version  : 1.1
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
 Summary  : "a perl5 class library for parsing the output from James Clark's SGMLS and NSGMLS parsers."
@@ -114,7 +114,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/SGMLS.pm
-/usr/lib/perl5/vendor_perl/5.34.0/SGMLS/Output.pm
-/usr/lib/perl5/vendor_perl/5.34.0/SGMLS/Refs.pm
-/usr/lib/perl5/vendor_perl/5.34.0/sgmlspl-specs/skel.pl
+/usr/lib/perl5/*
