@@ -5,7 +5,7 @@
 #
 Name     : perl-SGMLS
 Version  : 1.1
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz
 Summary  : "a perl5 class library for parsing the output from James Clark's SGMLS and NSGMLS parsers."
